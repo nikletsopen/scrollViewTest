@@ -32,7 +32,6 @@ struct ScrollView: View {
             }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
-            // some bottom-sticked content, or just –
             Spacer()
                 .frame(height: 50)
         }
