@@ -32,10 +32,6 @@ struct ScrollView: View {
             }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
-            Spacer()
-                .frame(height: 50)
-        }
-        .overlay(alignment: .bottom) {
             Color(.red)
                 .frame(height: 50.0)
                 .opacity(0.4)
